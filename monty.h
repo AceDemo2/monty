@@ -5,8 +5,8 @@
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
-void pall(stack_t *stack);
-void push(stack_t **stack, int n);
+void _pall(stack_t *stack);
+void _push(stack_t **stack, int n);
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
  * @n: integer
