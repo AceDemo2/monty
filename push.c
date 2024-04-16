@@ -1,6 +1,6 @@
 #include "monty.h"
 
-void push(stack_t **stack, int n)
+void _push(stack_t **stack, int n)
 {
 	stack_t *i;
 	char *malerr;

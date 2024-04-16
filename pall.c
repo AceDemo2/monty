@@ -1,6 +1,6 @@
 #include "monty.h"
 
-void pall(stack_t *stack)
+void _pall(stack_t *stack)
 {
 	if (!stack)
 		return;
@@ -10,5 +10,5 @@ void pall(stack_t *stack)
 		stack = stack->next;
 	}
 	while (stack->prev)
-		stack = stack->prev
+		stack = stack->prev;
 }
